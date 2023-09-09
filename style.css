@@ -40,6 +40,9 @@
     border: 2px solid gray;
     background-image: url("./images/background.png"),
     linear-gradient(45deg,#070707,#131212);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 }
 .title{
@@ -53,6 +56,7 @@
     margin-bottom: 15px;
 }
 .btn{
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: orangered;
     color: white;
@@ -61,4 +65,28 @@
 }
 .btn:hover{
     color: #131212;
+}
+
+/* about us style */
+.about-us{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+.about-img{
+    width: 250px;
+    margin-top: 30px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+    
+}
+.about-text{
+    margin-bottom: 125px;
+}
+.about-decsription{
+    margin-top: 15px;
 }
