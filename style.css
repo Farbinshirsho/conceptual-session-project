@@ -90,3 +90,38 @@
 .about-decsription{
     margin-top: 15px;
 }
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #070707;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.service-section{
+    background-image: url("./images/background.png"),
+    linear-gradient(30deg,#070707,#131212);
+}
+.service-title{
+    color: white;
+    padding-top: 50px;
+}
